@@ -20,10 +20,34 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Über die Berechnung
-Dieses Repository wurde erstellt, um einfach Berechnungen mit der Zuhilfenahme des [Bernoulli-Effektes](https://de.wikipedia.org/wiki/Bernoulli-Gleichung) zu erstellen. 
+Dieses Repository wurde erstellt, um einfach Berechnungen mit der Zuhilfenahme des [Bernoulli-Effektes](https://www.leifiphysik.de/mechanik/stroemungslehre/grundwissen/bernoulli-gleichung) zu erstellen. 
 - Es wird durch Masserhaltung die Geschwindigkeit bestimmt.
 - Durch Impulserhaltung kann die Druckänderung berechnet werden.
 - Aus dieser kann mit der Fläche die Abtriebskraft kalkuliert werden.
+
+#### **Gesamtenergie (Bernoulli-Gleichung):**
+
+- \( p_{\text{tot}} = \frac{\rho v^2}{2} + p = \text{const.} \)
+
+##### **Masseerhaltung:**
+
+- \( \dot{m} = \dot{V} \cdot \rho, \quad \rho = \text{const.} \)
+- \( \dot{V} = A \cdot \dot{x}, \quad b = \text{const.} \)
+- \( \dot{K} = h(x) \cdot \dot{x} = \text{const.} \)
+- \( \dot{K_1} = \dot{K_2} = h_1 \cdot v_{\infty} = h_2 \cdot v_2 \)
+- \( v_2 = \frac{h_1 \cdot v_{\infty}}{h_2} \)
+- \( v_3 = \frac{h_2 \cdot v_2}{h_3} \)
+
+##### **Impulserhaltung:**
+
+- \( \rho_L \cdot \frac{v_{\infty}^2}{2} + p_{\infty} = \rho_L \cdot \frac{v_2^2}{2} + p_2 \)
+- \( p_2 = \rho_L \cdot \frac{v_{\infty}^2 - v_2^2}{2} + p_{\infty} \)
+- \( \Delta p = p_2 - p_{\infty} \)
+
+##### **Abtriebskraft:**
+
+- Abtriebskraft \( = \Delta p \cdot l_U \cdot b \)
+
 
 <!-- CONTACT -->
 ## Contact
