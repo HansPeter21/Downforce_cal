@@ -25,35 +25,6 @@ Dieses Repository wurde erstellt, um einfach Berechnungen mit der Zuhilfenahme d
 - Durch Impulserhaltung kann die Druckänderung berechnet werden.
 - Aus dieser kann mit der Fläche die Abtriebskraft kalkuliert werden.
 
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>Abtriebsberechnung</title>
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-</head>
-<body>
-  <h1>Über die Berechnung</h1>
-  <p>Dieses Repository wurde erstellt, um einfach Berechnungen mit der Zuhilfenahme des <a href="https://www.leifiphysik.de/mechanik/stroemungslehre/grundwissen/bernoulli-gleichung">Bernoulli-Effektes</a> zu erstellen.</p>
-
-  <h2>Gesamtenergie (Bernoulli-Gleichung):</h2>
-  <p> \( p_{\text{tot}} = \frac{\rho v^2}{2} + p = \text{const.} \) </p>
-
-  <h2>Masseerhaltung:</h2>
-  <p> \( \dot{m} = \dot{V} \cdot \rho, \quad \rho = \text{const.} \) </p>
-  <p> \( \dot{V} = A \cdot \dot{x}, \quad b = \text{const.} \) </p>
-
-  <h2>Impulserhaltung:</h2>
-  <p> \( \rho_L \cdot \frac{v_{\infty}^2}{2} + p_{\infty} = \rho_L \cdot \frac{v_2^2}{2} + p_2 \) </p>
-
-  <h2>Abtriebskraft:</h2>
-  <p> Abtriebskraft = \( \Delta p \cdot l_U \cdot b \) </p>
-</body>
-</html>
-
-
 <!-- CONTACT -->
 ## Contact
 
