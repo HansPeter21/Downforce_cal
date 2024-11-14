@@ -25,28 +25,33 @@ Dieses Repository wurde erstellt, um einfach Berechnungen mit der Zuhilfenahme d
 - Durch Impulserhaltung kann die Druckänderung berechnet werden.
 - Aus dieser kann mit der Fläche die Abtriebskraft kalkuliert werden.
 
-#### **Gesamtenergie (Bernoulli-Gleichung):**
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Abtriebsberechnung</title>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+<body>
+  <h1>Über die Berechnung</h1>
+  <p>Dieses Repository wurde erstellt, um einfach Berechnungen mit der Zuhilfenahme des <a href="https://www.leifiphysik.de/mechanik/stroemungslehre/grundwissen/bernoulli-gleichung">Bernoulli-Effektes</a> zu erstellen.</p>
 
-- \( p_{\text{tot}} = \frac{\rho v^2}{2} + p = \text{const.} \)
+  <h2>Gesamtenergie (Bernoulli-Gleichung):</h2>
+  <p> \( p_{\text{tot}} = \frac{\rho v^2}{2} + p = \text{const.} \) </p>
 
-##### **Masseerhaltung:**
+  <h2>Masseerhaltung:</h2>
+  <p> \( \dot{m} = \dot{V} \cdot \rho, \quad \rho = \text{const.} \) </p>
+  <p> \( \dot{V} = A \cdot \dot{x}, \quad b = \text{const.} \) </p>
 
-- \( \dot{m} = \dot{V} \cdot \rho, \quad \rho = \text{const.} \)
-- \( \dot{V} = A \cdot \dot{x}, \quad b = \text{const.} \)
-- \( \dot{K} = h(x) \cdot \dot{x} = \text{const.} \)
-- \( \dot{K_1} = \dot{K_2} = h_1 \cdot v_{\infty} = h_2 \cdot v_2 \)
-- \( v_2 = \frac{h_1 \cdot v_{\infty}}{h_2} \)
-- \( v_3 = \frac{h_2 \cdot v_2}{h_3} \)
+  <h2>Impulserhaltung:</h2>
+  <p> \( \rho_L \cdot \frac{v_{\infty}^2}{2} + p_{\infty} = \rho_L \cdot \frac{v_2^2}{2} + p_2 \) </p>
 
-##### **Impulserhaltung:**
-
-- \( \rho_L \cdot \frac{v_{\infty}^2}{2} + p_{\infty} = \rho_L \cdot \frac{v_2^2}{2} + p_2 \)
-- \( p_2 = \rho_L \cdot \frac{v_{\infty}^2 - v_2^2}{2} + p_{\infty} \)
-- \( \Delta p = p_2 - p_{\infty} \)
-
-##### **Abtriebskraft:**
-
-- Abtriebskraft \( = \Delta p \cdot l_U \cdot b \)
+  <h2>Abtriebskraft:</h2>
+  <p> Abtriebskraft = \( \Delta p \cdot l_U \cdot b \) </p>
+</body>
+</html>
 
 
 <!-- CONTACT -->
