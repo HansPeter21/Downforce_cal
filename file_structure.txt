@@ -1,14 +1,22 @@
 Code/
-┣ Bilder/
-┃ ┣ Druck_Seitenkasten.png
-┃ ┣ Grenzschichtdicke_22ms.png
-┃ ┗ Grenzschichtdicke_Sweep.png
-┣ downenv/
+┣ .venv/
 ┃ ┣ Include/
 ┃ ┣ Lib/
 ┃ ┣ Scripts/
 ┃ ┣ share/
+┃ ┣ .gitignore
 ┃ ┗ pyvenv.cfg
+┣ Bilder/
+┃ ┣ Druck_Seitenkasten.png
+┃ ┣ Grenzschichtdicke_22ms.png
+┃ ┗ Grenzschichtdicke_Sweep.png
+┣ Data/
+┃ ┣ Data_Diffusor.csv
+┃ ┣ Data_Diffusor2.csv
+┃ ┣ Data_Infusor.csv
+┃ ┣ Data_Infusor2.csv
+┃ ┣ Data_Underbody.csv
+┃ ┗ Data_Underbody2.csv
 ┣ src/
 ┃ ┣ __pycache__/
 ┃ ┣ Area.py
@@ -25,4 +33,5 @@ Code/
 ┣ file_structure.txt
 ┣ Grenzschicht.ipynb
 ┣ README.md
-┗ requirements.txt
+┣ requirements.txt
+┗ view.ipynb
