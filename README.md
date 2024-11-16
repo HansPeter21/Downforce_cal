@@ -54,6 +54,6 @@ conda activate .\myenv
 
 Mauro Schegg  - mauro.schegg@ost.com
 
-Projekt Link: [https://github.com/HansPeter21/Downforce_cal](https://github.com/HansPeter21/Downforce_cal)
+Project Link: [https://github.com/HansPeter21/Downforce_cal](https://github.com/HansPeter21/Downforce_cal)
 
 
