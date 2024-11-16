@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def Infuser_Diffuser_f(alpha, Beta, lI, N, vinf, b, h2, L, pinf, rohL, lU, nu):

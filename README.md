@@ -21,9 +21,13 @@
 <!-- ABOUT THE PROJECT -->
 ## Über die Berechnungen:
 Dieses Repository wurde erstellt, um einfach Berechnungen mit der Zuhilfenahme des [Bernoulli-Effektes](https://www.leifiphysik.de/mechanik/stroemungslehre/grundwissen/bernoulli-gleichung) zu erstellen. 
-- Es wird durch Masserhaltung die Geschwindigkeit bestimmt.
+**Berechnung Abtrieb:**
+- Es wird durch Massenerhaltung die Geschwindigkeit bestimmt.
 - Durch Impulserhaltung kann die Druckänderung berechnet werden.
 - Aus dieser kann mit der Fläche die Abtriebskraft kalkuliert werden.
+
+**Berechnung Grenzschichtdicke:**
+- Durch die Geschwindigkeit und Länge wurde die Schichtdicke unter mithilfe der Reynoldszahl berechnet.
 
 <!-- HOW TO RUN -->
 ## How to run:
@@ -44,7 +48,7 @@ conda create --name myenv
 ```bash
 conda activate .\myenv
 ```
-- Select the environement in as your Kernal and run the code.
+- Select the environement as your Kernal and run the code.
 <!-- CONTACT -->
 ## Contact:
 
