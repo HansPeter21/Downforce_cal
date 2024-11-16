@@ -1,0 +1,28 @@
+Code/
+┣ Bilder/
+┃ ┣ Druck_Seitenkasten.png
+┃ ┣ Grenzschichtdicke_22ms.png
+┃ ┗ Grenzschichtdicke_Sweep.png
+┣ downenv/
+┃ ┣ Include/
+┃ ┣ Lib/
+┃ ┣ Scripts/
+┃ ┣ share/
+┃ ┗ pyvenv.cfg
+┣ src/
+┃ ┣ __pycache__/
+┃ ┣ Area.py
+┃ ┣ Downforce_cal.py
+┃ ┗ Infuser_Diffuser.py
+┣ __pycache__/
+┃ ┣ Area.cpython-311.pyc
+┃ ┣ Downforce.cpython-311.pyc
+┃ ┣ Downforce_cal.cpython-311.pyc
+┃ ┗ Infuser_Diffuser.cpython-311.pyc
+┣ .gitignore
+┣ Airfoils.ipynb
+┣ Downforce_1.ipynb
+┣ file_structure.txt
+┣ Grenzschicht.ipynb
+┣ README.md
+┗ requirements.txt
